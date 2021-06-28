@@ -1,4 +1,30 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    max-width: 1024px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+header{
+    background-image: url(../img/show2016.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    color:azure;
+    text-align: center;
+}
+
+.memberBenefit{
+    padding: 20px;
+    background-color: #010101;
+    color:azure;
 }
