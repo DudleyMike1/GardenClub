@@ -27,4 +27,15 @@ header{
     padding: 20px;
     background-color: #010101;
     color:azure;
+    height: auto;
+    text-align: center;
+}
+
+.memberBenefit1{
+    max-width: 30%;
+    padding:10px;
+    display: block;
+    background-color: #010101;
+    color:azure;
+    text-align: left;
 }
