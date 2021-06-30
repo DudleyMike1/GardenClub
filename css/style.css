@@ -1,14 +1,27 @@
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
 }
 
 body{
     width: 100%;
     max-width: 1024px;
-    padding-left:20px;
-    padding-right: 20px;
+    padding: 0 1rem;
     margin: auto;
 }
 
@@ -24,18 +37,20 @@ header{
 }
 
 .memberBenefit{
-    padding: 20px;
+    padding: 1rem;
     background-color: #010101;
     color:azure;
     height: auto;
     text-align: center;
+    display: flex;
 }
 
 .memberBenefit1{
     max-width: 30%;
-    padding:10px;
+    padding:0.75rem;
     display: block;
     background-color: #010101;
     color:azure;
     text-align: left;
 }
+
