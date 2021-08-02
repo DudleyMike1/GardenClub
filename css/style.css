@@ -34,17 +34,20 @@ header{
     text-shadow: 2px 2px 8px black;
     text-align: center;
 }
-
-.memberBenefit{
+.dark{
     padding: 1rem;
     background-color: #010101;
     color:azure;
     height: auto;
     text-align: center;
+    align-content: center;
+}
+.memberBenefit{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 
 .memberBenefit1{
     max-width: 30%;
